@@ -33,4 +33,5 @@ async def get_weather(interaction: discord.Interaction, city: str):
     # await ctx.send(embed=embed)
     await interaction.response.send_message(embed=embed)
 
+
 bot.run(token)
